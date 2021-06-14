@@ -28,7 +28,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PRIVATE_SECRET }}
+          key: ${{ secrets.PRIVATE_SECRET }}
           port: 22
           script: |
             cd ~/apps/ga-ci-node-js
