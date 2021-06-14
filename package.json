@@ -1,0 +1,20 @@
+{
+  "name": "ga-ci-node",
+  "version": "1.0.0",
+  "description": "Example Code For Github Actions NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "Fakta Arief",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "supertest": "^6.1.3"
+  }
+}
